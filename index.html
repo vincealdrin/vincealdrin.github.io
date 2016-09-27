@@ -5,55 +5,79 @@
   <title>Vince Aldrin Cabrera</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
-      * {
-    box-sizing: border-box; }
+* {
+  box-sizing: border-box; }
 
-    body {
-      background-color: #2c3e50;
-      overflow: hidden; }
+body {
+  background-color: #2c3e50;
+  overflow: hidden; }
 
-    div.container {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      width: 100vw;
-      height: 100vh;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; }
+div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
-    span {
-      color: #ecf0f1;
-      margin-bottom: 5px; }
+span {
+  color: #ecf0f1;
+  margin-bottom: 5px; }
 
-    span.adj {
-      color: aquamarine; }
+span.adj {
+  color: aquamarine; }
 
-    a {
-      font-size: 13px;
-      color: #e74c3c; }
+a.github {
+  font-size: 13px;
+  color: #e74c3c; }
 
-    .name {
-      font-size: 50px; }
+.name {
+  font-size: 50px; }
+
+.contact {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .contact a {
+    font-size: 18px;
+    color: #27ae60; }
 
   </style>
 </head>
 <body>
   <div class="container">
+    <div class="contact">
+      <span>Contact</span>
+      <span>
+        <a href="https://facebook/hahahavnchahaha">fb</a>
+        <a href="https://twitter/aldrinvc">twitter</a>
+      </span>
+      <a href="tel:+639278320220">+639278320220</a>
+      <a href="mailto:vincealdrincabrera@gmail.com">vincealdrincabrera@gmail.com</a>
+    </div>
     <span class="name">Vince Aldrin Cabrera</span>
     <span>
       An
       <span class="adj">adequately</span>
       skilled developer
     </span>
-    <a href="https://github.com/vincealdrin">Check out my stuffs</a>
+    <a class="github" href="https://github.com/vincealdrin">Check out my stuffs</a>
   </div>
 </body>
 </html>
